@@ -24,9 +24,14 @@ Run
 6. run colmap mapper --database_path ./database.db --image_path ./images/ --export_path . --Mapper.init_max_reg_trials 5 --Mapper.init_num_trials 400 --Mapper.abs_pose_min_inlier_ratio 0.02
 7. run colmap postprocessor
 
-Results
--------
+Data and Results
+----------------
+
+The data for the evaluation of the method are stored at https://data.ciirc.cvut.cz/public/projects/2021TwoBodySfM/
+The subdirectory data contains the input images together with a file takes.txt which sorts the data into takes and with database db.db which contains matches between the images. In order to evaluate the proposed method, the steps 6. and 7. of the Run procedure described above should be performed. The reconstructed models are stored in subdirectory models. Every zip folder contains the models of each take and final models whose structure is following:
+
 In directory model0 you can find the model of both objects where the background is red and the foreground is green
 In directory model1 you can find the model of both objects in real color
 In directory model2 you can find the model of the background in real color
 In directory model3 you can find the model of the foreground in real color
+
