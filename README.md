@@ -35,5 +35,10 @@ The subdirectory data contains the input images together with a file takes.txt w
 * In directory model2 you can find the model of the background in real color
 * In directory model3 you can find the model of the foreground in real color
 
-The data for the additional experiments have been taken from https://www.eth3d.net/slam_datasets
+The data for the additional experiments have been taken from https://www.eth3d.net/slam_datasets from the following datasets datasets:
+
+* motion_1
+* motion_2
+* motion_3
+* motion_4
 
